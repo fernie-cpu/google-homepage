@@ -1,0 +1,133 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#all {
+    top: 16px;
+}
+
+.navbar {
+    z-index: 987;
+    float: right;
+    min-width: 165px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    -webkit-user-select: none;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
+    font-size: 13px;
+    color: #222222;
+}
+
+.navGI {
+    padding-right: 15px;
+    line-height: normal;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#navGmail, #navImages {
+    padding-left: 0;
+    vertical-align: middle;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+#navGmail {
+    text-decoration: none;
+    color: #000000;
+    opacity: 0.87;
+    line-height: 24px;
+    outline: none;
+}
+
+#navImages {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.87;
+    line-height: 24px;
+    outline: none;
+}
+
+.navAS {
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: inline-block;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.apps {
+    height: 30px;
+    width: 30px;
+    padding: 0 0 0;
+    vertical-align: middle;
+    position: relative;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+    background-position: -100px 38px;
+    background-size: 528px 68px;
+    opacity: .55;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    line-height:normal;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.sign {
+    display: inline-block;
+    padding: 0 0 0 15px;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 0 !important;
+    margin-right: 0 !important; 
+}
+
+#navSign {
+    position: relative;
+    color: #FFF;
+    cursor: default;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    text-align: left;
+}
+
+#main {
+    display: block;
+}
+
+.logo {
+    justify-self: center;
+    align-self: end;
+    padding-bottom: 30px;
+}
+
+#searchbox {
+    width: 582px;
+    height: 44px;
+}

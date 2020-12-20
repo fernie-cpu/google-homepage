@@ -1,4 +1,4 @@
 # Project Recreate Google Home Page
-(http://fernie-cpu.github.io/google-homepage/)
+<a href="http://fernie-cpu.github.io/google-homepage/">Demo</a>
 =======
-### [The Odin Project] (http://theodinproject.com)
+<a href="http://theodinproject.com">The Odin Project</a>

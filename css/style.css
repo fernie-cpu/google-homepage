@@ -6,6 +6,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: small;
+    overflow-x: hidden;
 }
 
 #all {
@@ -122,9 +123,8 @@ body {
 }
 
 .logo {
-    justify-self: center;
-    align-self: end;
-    padding-bottom: 30px;
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
 
 #searchform {
@@ -151,7 +151,8 @@ body {
 }
 
 .svg1 {
-    margin: auto;
+    position: absolute;
+    left: 30%;
 }
 
 .svg2 {
@@ -170,8 +171,6 @@ body {
     height: 100%;
     width: 20px;
     margin-top: 3px;
-    padding-left: 385px;
-    float: inline-start;
 }
 
 #searchbox {
@@ -184,13 +183,18 @@ body {
     margin: 0 auto;
 }
 
+#searchbox:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.20);
+    border-color: rgb(223, 225, 229);
+}
+
 #flexbox {
-    width: 100%;
+    width: 571px;
     height: 70px;
-    padding-top: 18px;
+    padding-top: 280px;
+    padding-left: 382px;
     position: absolute;
-    top: 78%;
-    left: 41%;
+    top: 53px;
     z-index: 0;
 
 }
@@ -247,21 +251,22 @@ body {
 
 .logo {
     height:233px;    
-    margin:145px 190px 0 0;
+    margin:145px 205px 0 0;
     float: inline-end;
 }
 
 @media only screen and (max-height:768px)
 {
-    #lga 
+    .logo 
     {
-        margin-top:47px;
+        margin-top:150px;
     }
 }
 
 #footer {
-    display: block;
+    display: inline-block;
     bottom: 0;
+    left: 0;
     font-size: 10pt;
     height: 35px;
     position: fixed;
@@ -270,11 +275,82 @@ body {
     line-height: 48px;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
+    margin: 0 !important;
+}
+
+#footer a:hover {
+    text-decoration: underline;
 }
 
 .fright {
     margin-right: 30px;
     float: right;
     white-space: nowrap;
-    
+    font-size: 14px;
+    text-align: center;
+}
+
+.fleft {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#advertising {
+    color: #5f6368;
+    text-decoration: none;
+    top: -5px;
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#business {
+    color: #5f6368;
+    text-decoration: none;
+    top: -5px;
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#hsw {
+    color: #5f6368;
+    text-decoration: none;
+    top: -5px;
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#privacy {
+    color: #5f6368;
+    text-decoration: none;
+    top: -5px;
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#terms {
+    color: #5f6368;
+    text-decoration: none;
+    top: -5px;
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#settings {
+    color: #5f6368;
+    text-decoration: none;
+    top: -5px;
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
 }
